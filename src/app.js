@@ -44,7 +44,7 @@ const fillPage = (c) => {
                         <img src="${c[1]}" alt="${c[2]}, ${c[7]}"></img>
                         <figcaption><b>${c[2]}</b></figcaption>
                     </figure>
-                    <h4>${c[5]} <a href="${c[6]}" target="_blank">more...</a></h4>
+                    <h4>${c[5]} <a href="${c[6]}" target="_blank" rel="noopener">more...</a></h4>
                     <p id="date"><i>${c[4]}</i></p>
                     <p>${c[8]}</p>
                   </div>`;
